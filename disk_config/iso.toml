@@ -1,0 +1,11 @@
+[output]
+filename = "distr0.iso"
+
+[iso]
+installer = "fedora"
+
+[container]
+image = "ghcr.io/bianconoimba/distr0:latest"
+
+[user]
+groups = ["wheel"]
