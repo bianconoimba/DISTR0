@@ -1,0 +1,49 @@
+# Build artifacts
+output/
+*.qcow2
+*.iso
+*.raw
+*.img
+
+# Podman/Container artifacts
+.podman/
+*.tar
+
+# Local testing
+*.log
+temp/
+dist/
+build/
+
+# Security - never commit signing keys
+cosign.key
+*.key
+!example.key
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Node
+node_modules/
+npm-debug.log
+
+# Cargo
+Cargo.lock
+target/
+
+# System
+.cache/
+.config/
+.local/
